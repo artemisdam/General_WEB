@@ -1,0 +1,7 @@
+apt-get update
+apt-get install -y mysql-server
+service mysql start
+apt-get install -y php7.3-mbstring php7.3-mysqli phpmyadmin
+service apache2 restart
+
+GRANT ALL PRIVILEGES ON * . * TO 'phpmyadmin'@'localhost' WITH GRANT OPTION;

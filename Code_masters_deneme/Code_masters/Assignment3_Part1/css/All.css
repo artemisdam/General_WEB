@@ -1,0 +1,195 @@
+/*------------------INDEX-----------------*/
+body {
+  /* apply styles to the body element of the document */
+  background-color: #fff;
+  margin: 0; /* remove any margin on the body  */
+  padding: 0; /* remove any padding on the body  */
+  display: flex; /* applying a flexbox layout for the body  */
+  flex-direction: column; /* set the direction of the flexbox layout to column */
+  min-height: 100vh; /* set the minimum height of the body element to 100% of the viewport height */
+}
+header {
+  /*apply styles to the header of the document */
+  background-color:black;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex; /* use a flexbox layout for the header  */
+  align-items: center; /* This centers the items within the header element vertically */
+  justify-content: space-between; /* This evenly spaces the items within the header element horizontally */
+}
+header h2 {
+  /* This applies styles to the h2 element within the header element */
+  margin: 0;
+  color: #f2f2f2;
+  margin-top: 2.5%;
+}
+nav {
+  /* This applies styles to the navigation element of the document */
+  display: flex; /*This uses a flexbox layout for the navigation element */
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* This creates a grid with three equal columns within the navigation element */
+  background-color: black ;
+  color: #fff;
+  align-items: center; /*This centers the items within the navigation element vertically */
+  justify-content: flex-end; /*This aligns the items within the navigation element to the right */
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+nav a {
+  /* This applies styles to the links within the navigation element */
+  text-decoration: none;
+  color: #fff;
+  margin-right: 60px;
+  font-size: 20px;	
+}
+section {	
+  width: 15%;
+  display: inline-block;
+  background-color: #212A3E;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: top;
+  margin:70px;
+}
+.link {
+  /* This applies styles to links within the document */
+  text-decoration: none;
+}
+ul {
+  /* This applies styles to unordered lists within the document */
+  padding-left: 20px;
+}
+table {
+  /* This applies styles to tables within the document */
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+th {
+  background-color: #f2f2f2; /* Sets the background color of all <th> elements to light grey */
+  color: #333; /* Sets the text color of all <th> elements to dark grey */
+  font-weight: bold; /* Sets the font weight of all <th> elements to bold */
+}
+footer {  
+  background-color: black ; /* Sets the background color of the <footer> element to a shade of green */
+  color: #fff; /* Sets the text color of the <footer> element to white */
+  padding: 10px; /* Adds 10 pixels of padding to the top, right, bottom, and left of the <footer> element */
+  text-align: center; /* Centers any text within the <footer> element */
+}
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%; /* Sets the width of the <body> element to 100% when the screen width is less than or equal to 768 pixels */
+    height: auto; /* Sets the height of the <body> element to automatic when the screen width is less than or equal to 768 pixels */
+  }
+}
+.photo {
+  size: 3px 3px; /* Defines a size of 3 pixels by 3 pixels for any element with the "photo" class */
+}
+img {
+  width: 200px; /* Sets the width of any image element to 200 pixels */
+  height: 200px; /* Sets the height of any image element to 200 pixels */
+}
+body {
+			background-image: url("../images/background2.jpeg");
+			background-repeat: no-repeat;
+			background-size: cover;	
+  
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-y: scroll;	
+		}
+h {
+      font-size: 36px; /* veya istediğiniz boyut */
+    }
+section1 {	
+  width: 70%;
+  display: inline-block;
+  background-color: transparent;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: top;
+  margin:200px;
+color: white;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+form {
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	padding: 30px;
+	max-width: 500px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-left:500;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="Password"],
+
+form select {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;	
+}
+
+form input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;	
+}
+
+
+form input[type="submit"]:hover {
+	background-color: #45a049;
+}
+h2 { 
+color:whitesmoke;
+}
+label{  
+	color:whitesmoke;
+}
+
+.condiv{
+	
+}
+
+.btn-primary {
+  background-color:#45a049;
+	color: white;
+	height: 35px;
+	border: none;
+	border-radius: 4px;
+}
+
+audio {
+  display: none;
+}
+
+
+
+
